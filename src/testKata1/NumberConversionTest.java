@@ -7,7 +7,7 @@ import org.junit.jupiter.api.Test;
 
 class NumberConversionTest {
 
-	private NumberConversion converter = new NumberConversion();
+	private NumberConverter converter = new NumberConverter();
 	@Test
 	void testNumberToNumeral1() {
 		String result1 = converter.convertNumberToNumeral(1);

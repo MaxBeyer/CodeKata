@@ -3,10 +3,13 @@ public class Kata1 {
 	
 	//main method used for random numeral verification
 	public static void main(String[] args) {
-		NumberConversion numberConversion = new NumberConversion();
-		Integer number = 1234;
-		String romanNumeral = numberConversion.convertNumberToNumeral(number);
+		NumberConverter numberConverter = new NumberConverter();
+		NumeralConverter numeralConverter = new NumeralConverter();
+		Integer testNumber = 1234;
+		String romanNumeral = numberConverter.convertNumberToNumeral(testNumber);
 		System.out.println(romanNumeral);
+		String number = numeralConverter.convertNumeralToNumber(romanNumeral);
+		System.out.println(number);
 	}
 
 }

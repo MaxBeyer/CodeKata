@@ -1,6 +1,6 @@
 package Kata1;
 
-public class NumberConversion {
+public class NumberConverter {
 	
 	private NumberSeperator numberSeperator = new NumberSeperator();
 	private NumeralMap numeralMap = new NumeralMap();
