@@ -7,9 +7,9 @@ public class Kata1 {
 		NumeralConverter numeralConverter = new NumeralConverter();
 		Integer testNumber = 1234;
 		String romanNumeral = numberConverter.convertNumberToNumeral(testNumber);
-		System.out.println(romanNumeral);
+		System.out.println("Roman Numeral: " + romanNumeral);
 		String number = numeralConverter.convertNumeralToNumber(romanNumeral);
-		System.out.println(number);
+		System.out.println("Number: " + number);
 	}
 
 }
